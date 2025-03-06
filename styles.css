@@ -17,6 +17,10 @@ body {
     font-size: 25px;
     line-height: 1.2;
     text-align: center;
+    background-image: url('/lordshiva.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
 h1, h2{
@@ -27,6 +31,44 @@ h1, h2{
 
 header{
     text-align: center;
-    background-color: rgb(211, 224, 234);
+    /* background-color: rgb(211, 224, 234); */
     padding: 25px;
+    margin-left: 600px;
+    margin-right: 600px;
+   
+}
+
+main {
+    max-width: 2000px;
+    box-shadow: 0 4px 8px rgba(22, 21, 21, 0);
+    margin: auto;
+    padding: 30px;
+    text-decoration: none;
+}
+
+footer {
+    background-color:rgb(182, 191, 192);
+    margin-bottom: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.Lyrics {
+    /* background-color: rgb(214, 215, 215); */
+    margin-left: 600px;
+    margin-right: 600px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Singer {
+    /* background-color: rgb(211, 224, 234); */
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 30px;
+}
+
+header h1 p {
+    text-align: left;
+    margin-left: 10px;
+
 }
