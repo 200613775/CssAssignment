@@ -18,11 +18,13 @@ body {
     font-size: 25px;
     line-height: 1.2;
     text-align: center;
-    background-image: url('/lordshiva.png');
+    background-image: url('../images/lordshiva.png');
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   justify-content: center;
+   display: inline;
+   box-sizing: border-box;
+    
 }
 
 h1, h2{
@@ -35,8 +37,8 @@ header{
     text-align: center;
     /* background-color: rgb(211, 224, 234); */
     padding: 25px;
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 40px;
+    margin-right: 40px;
    
 }
 
@@ -47,26 +49,40 @@ main {
     padding: 30px;
     text-decoration: none;
     justify-content: center;
+    border-radius: 16px;
 }
 
 footer {
-    
-    margin-bottom: 30px;
-    margin-left: 400px;
-    margin-right: 400px;
+     margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
     color: whitesmoke;
+    border: 100cm;
+    border-top: 10px solid #070707;
+    border-bottom: 10px solid #070707;
+    border-left: 10px solid #070707;
+    border-right: 10px solid #070707;
+    border-radius: 0%;
+    box-sizing: border-box;
+    background-color:black;
 }
 
 .Lyrics {
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 30px;
+    margin-right: 30px;
     font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+blockquote {
+    color:rgb(42, 41, 41);
+    font-weight: bold;
 }
 
 .Singer {
-    /* background-color: rgb(211, 224, 234); */
-    margin-left: 350px;
-    margin-right: 350px;
+   
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 30px;
 }
 
@@ -77,4 +93,34 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+a:visited {
+    color: cornflowerblue;
+}
+
+.Lyrics > p{
+    font-style: italic;
+    color:rgb(42, 41, 41);
+    font-weight: bold;
+}
+
+.Singer p:nth-child(3){
+    color:rgb(42, 41, 41);
+    font-weight: bolder;
+}
+
+.Singer p:nth-child(2){
+    color:rgb(42, 41, 41);
+    font-weight: bolder;
+}
+
+.Song {
+    color:rgb(42, 41, 41);
+    font-weight: bolder;
+}
+
+header p{
+    color:rgb(42, 41, 41);
+    font-weight: bolder;
 }
